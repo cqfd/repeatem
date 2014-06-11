@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "repeatem",
+  "description": "Play Hype Machine songs on repeat.",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://hypem.com/*"],
+      "js": ["vendor/jquery-2.1.1.min.js", "repeatem.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "repeatem.png"
+  }
+}
