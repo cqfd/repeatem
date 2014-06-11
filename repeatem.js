@@ -8,5 +8,5 @@ $('#content-wrapper').on('click', '.section-track a.play-ctrl', function() {
     if (!$track.hasClass('haarp-active')) {
       $playButton[0].click();
     }
-  }, 1000);
+  }, 100);
 });
