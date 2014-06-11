@@ -1,5 +1,5 @@
 var interval = null;
-$('.section-track a.play-ctrl').click(function() {
+$('#content-wrapper').on('click', '.section-track a.play-ctrl', function() {
   clearInterval(interval);
   var trackId = $(this).attr('id').substring("play_ctrl_".length);
   var $track = $("#section-track-" + trackId);
