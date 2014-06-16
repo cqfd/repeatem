@@ -8,8 +8,5 @@
       "matches": ["http://hypem.com/*"],
       "js": ["vendor/jquery-2.1.1.min.js", "repeatem.js"]
     }
-  ],
-  "browser_action": {
-    "default_icon": "repeatem.png"
-  }
+  ]
 }
